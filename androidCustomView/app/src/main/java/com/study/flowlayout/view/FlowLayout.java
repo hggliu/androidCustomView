@@ -15,6 +15,7 @@ public class FlowLayout extends ViewGroup {
     //每一行的高度
     private List<Integer> mLineHeight = new ArrayList<>();
 
+    //添加注释
     public FlowLayout(Context context) {
         this(context, null);
         // TODO Auto-generated constructor stub
