@@ -53,32 +53,32 @@ public class MyPaintViewTest extends View {
         /**
          * DashPathEffect DEMO 效果
          */
-        drawDashPathEffectDemo(canvas);
+        //drawDashPathEffectDemo(canvas);
 
         /**
          * DiscretePathEffect DEMO效果
          */
-//        drawDiscretePathEffectDemo(canvas);
+        //drawDiscretePathEffectDemo(canvas);
 
         /**
          * PathDashPathEffect效果
          */
-//        drawPathDashPathEffect(canvas);
+       // drawPathDashPathEffect(canvas);
 
         /**
          * PathDashPathEffect DEMO效果
          */
-//        drawPathDashPathEffectDemo(canvas);
+      //  drawPathDashPathEffectDemo(canvas);
 
         /**
          * ComposePathEffect与SumPathEffect
          */
-//        drawComposePathEffectDemo(canvas);
+       // drawComposePathEffectDemo(canvas);
 
         /**
          * SubpixelText Demo
          */
-        //drawSubpixelText(canvas);
+        drawSubpixelText(canvas);
 
     }
 
@@ -253,7 +253,7 @@ public class MyPaintViewTest extends View {
         path.lineTo(400,150);
         path.lineTo(700,900);
         canvas.drawPath(path,paint);
-        canvas.drawPath(path,paint);
+       // canvas.drawPath(path,paint);
 
         canvas.translate(0,200);
 
@@ -302,7 +302,7 @@ public class MyPaintViewTest extends View {
         paint.setPathEffect(composePathEffect);
         canvas.drawPath(path,paint);
 
-        //利用SumPathEffect,分别将圆角特效应用于原始路径,然后将生成的两条特效路径合并
+        //利用SumPathEffect,分别将圆角特效 应用于原始路径,然后将生成的两条特效路径合并
         canvas.translate(0,300);
         paint.setStyle(Paint.Style.STROKE);
         SumPathEffect sumPathEffect = new SumPathEffect(cornerPathEffect,dashPathEffect);
