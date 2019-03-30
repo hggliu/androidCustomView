@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.study.flowlayout.view.FlowLayout
+   <!-- <com.study.flowlayout.view.FlowLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -49,6 +49,19 @@
         <TextView
             style="@style/tv_style"
             android:text="垃圾袋"/>
-    </com.study.flowlayout.view.FlowLayout>
+    </com.study.flowlayout.view.FlowLayout>-->
+
+
+    <!--<com.study.flowlayout.view.MyDashView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>-->
+
+    <com.study.flowlayout.view.MyPaintViewTest
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+   <!-- <com.study.flowlayout.view.PathDashPathView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
 
 </LinearLayout>
