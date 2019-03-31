@@ -65,13 +65,31 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />-->
 
-    <com.study.flowlayout.view.CustomProgressBar
+   <!-- <com.study.flowlayout.view.CustomProgressBar
         android:id="@+id/progressbar"
         android:layout_width="100dip"
         android:layout_height="100dip"
         app:roundProgressColor="#ff00ff"
         app:textColor="@android:color/black"
         app:textSize="20sp"
-        app:roundWidth="15dp" />
+        app:roundWidth="15dp" />-->
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加图片"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.study.flowlayout.view.WaterfallLayout
+            android:id="@+id/waterfallLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+
 
 </LinearLayout>
