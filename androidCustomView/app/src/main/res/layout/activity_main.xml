@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -56,12 +57,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>-->
 
-    <com.study.flowlayout.view.MyPaintViewTest
+    <!--<com.study.flowlayout.view.MyPaintViewTest
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"/>-->
 
    <!-- <com.study.flowlayout.view.PathDashPathView
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />-->
+
+    <com.study.flowlayout.view.CustomProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        app:roundProgressColor="#ff00ff"
+        app:textColor="@android:color/black"
+        app:textSize="20sp"
+        app:roundWidth="15dp" />
 
 </LinearLayout>
